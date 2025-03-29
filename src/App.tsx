@@ -1,15 +1,13 @@
 export function App() {
-  console.log("AAOOO");
   return (
     <>
-      <h1>Para a Mel</h1>
+      <h1>The First Berseker: Khazan</h1>
 
       <h2>
-        Vida, eu te amo em todos os momentos do meu dia. Quando acordo e tomo
-        minha primeira xícara de café você está em meus pensamentos. Quando
-        trabalho, busco conforto em nossos momentos juntos. Quando vou dormir,
-        lembro que tenho alguém para compartilhar a cama. Te amo de janeiro a
-        janeiro, do primeiro raiar de sol até a última luz do luar.
+        The First Berserker: Khazan is a hardcore action role-playing game. The
+        player will become Khazan, the great general of the Pell Los Empire, who
+        overcame death, and sets out to reveal the incidents that led to his
+        downfall and seek vengeance on his enemies.
       </h2>
     </>
   );
