@@ -1,7 +1,11 @@
+import { Heading } from "./components/heading";
+import "./styles/global.css";
+import "./styles/theme.css";
+
 export function App() {
   return (
     <>
-      <h1>The First Berseker: Khazan</h1>
+      <Heading />
 
       <h2>
         The First Berserker: Khazan is a hardcore action role-playing game. The
