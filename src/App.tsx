@@ -5,7 +5,10 @@ import "./styles/theme.css";
 export function App() {
   return (
     <>
-      <Heading />
+      <Heading attr={44} attr2="polar">
+        The First Berseker: Khazan
+      </Heading>
+      <Heading>The Second Berseker: Shazam</Heading>
 
       <h2>
         The First Berserker: Khazan is a hardcore action role-playing game. The

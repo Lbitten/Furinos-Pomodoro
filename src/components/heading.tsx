@@ -1,5 +1,5 @@
 import style from "./heading.module.css";
 
-export function Heading() {
-  return <h1 className={style.heading}>The First Berseker: Khazan</h1>;
+export function Heading(props) {
+  return <h1 className={style.heading}>{props.children}</h1>;
 }

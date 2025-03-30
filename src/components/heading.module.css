@@ -1,9 +1,9 @@
 .heading {
-  background: grey;
-  color: blue;
+  background: black;
+  color: red;
 }
 
 .headingBlack {
-  color: red;
-  background: black;
+  color: blue;
+  background: gray;
 }
