@@ -1,21 +1,29 @@
-import { Heading } from "./components/heading";
 import "./styles/global.css";
 import "./styles/theme.css";
 
 export function App() {
   return (
     <>
-      <Heading attr={44} attr2="polar">
-        The First Berseker: Khazan
-      </Heading>
-      <Heading>The Second Berseker: Shazam</Heading>
-
-      <h2>
-        The First Berserker: Khazan is a hardcore action role-playing game. The
-        player will become Khazan, the great general of the Pell Los Empire, who
-        overcame death, and sets out to reveal the incidents that led to his
-        downfall and seek vengeance on his enemies.
-      </h2>
+      <div className="container">
+        <div className="content">
+          <section>Logo</section>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <section>Menu</section>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <section>Form</section>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content">
+          <section>Footer</section>
+        </div>
+      </div>
     </>
   );
 }

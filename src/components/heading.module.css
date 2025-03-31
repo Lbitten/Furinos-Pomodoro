@@ -1,9 +1,6 @@
 .heading {
-  background: black;
-  color: red;
-}
-
-.headingBlack {
-  color: blue;
-  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
