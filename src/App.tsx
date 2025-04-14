@@ -6,6 +6,7 @@ import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
 import { CountDown } from "./components/CountDown";
 import { InputDefault } from "./components/InputDefault";
+import { Cycles } from "./components/Cycles";
 
 export function App() {
   return (
@@ -27,7 +28,6 @@ export function App() {
               id="input"
               type="text"
               placeholder="Digite sua Task"
-              disabled
             />
           </div>
 
@@ -36,8 +36,7 @@ export function App() {
           </div>
 
           <div className="formRow">
-            <span>Ciclos</span>
-            <span>O O O O O</span>
+            <Cycles />
           </div>
 
           <div className="formRow">
